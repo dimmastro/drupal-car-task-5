@@ -1,0 +1,26 @@
+uuid: 09a40cdd-ea11-4761-b241-e5789c34a94a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.car.field_color
+    - field.field.node.car.field_image
+    - field.field.node.car.field_mark
+    - node.type.car
+  module:
+    - user
+id: node.car.teaser
+targetEntityType: node
+bundle: car
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_color: true
+  field_image: true
+  field_mark: true

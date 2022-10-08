@@ -1,0 +1,22 @@
+uuid: 5aad21b8-6c4e-49a4-b330-0b973d09991f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - scarf
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: scarf_content
+theme: scarf
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

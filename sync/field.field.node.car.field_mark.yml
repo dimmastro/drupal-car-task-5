@@ -1,0 +1,19 @@
+uuid: 9fe84bdc-b17e-45e5-8ea9-26bb77f2e568
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mark
+    - node.type.car
+id: node.car.field_mark
+field_name: field_mark
+entity_type: node
+bundle: car
+label: Mark
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

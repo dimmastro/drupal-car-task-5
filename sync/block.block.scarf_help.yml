@@ -1,0 +1,22 @@
+uuid: 967f7961-e51a-4cd1-99e5-904584fcc2de
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - scarf
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: scarf_help
+theme: scarf
+region: header
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

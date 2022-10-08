@@ -1,0 +1,21 @@
+uuid: 06872071-e995-47a0-8d35-8247c693b989
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_mark
+field_name: field_mark
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

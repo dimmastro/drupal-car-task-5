@@ -1,0 +1,14 @@
+uuid: 852c63e5-916a-4f8d-9c58-d2ba0dba6f71
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - k-d@yandex.ru
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

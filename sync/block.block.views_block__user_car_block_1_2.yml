@@ -1,0 +1,29 @@
+uuid: 13ceb3b6-37ce-4b7d-9a75-fc0887a2b32b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.user_car
+  module:
+    - system
+    - views
+  theme:
+    - scarf
+id: views_block__user_car_block_1_2
+theme: scarf
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:user_car-block_1'
+settings:
+  id: 'views_block:user_car-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

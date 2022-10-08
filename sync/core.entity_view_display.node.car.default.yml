@@ -1,0 +1,50 @@
+uuid: 3919b768-d66b-4496-a4f7-eb67b1962943
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.car.field_color
+    - field.field.node.car.field_image
+    - field.field.node.car.field_mark
+    - node.type.car
+  module:
+    - image
+    - options
+    - user
+id: node.car.default
+targetEntityType: node
+bundle: car
+mode: default
+content:
+  field_color:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_mark:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
